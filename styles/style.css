@@ -109,5 +109,24 @@ button {
   height: 500px;
   margin: 0 auto;
   margin-top: 23px;
-  border: 2px solid red;
+}
+.inspiration-text-container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.inspiration-video-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 23px;
+  border: 2px solid rgb(237, 228, 228);
+}
+.inspiration-video-container iframe {
+  height: 90%;
+  width: 95%;
+  /* margin-bottom: 5px; */
 }
