@@ -1,0 +1,113 @@
+/* banner style */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.banner-container {
+  background-image: url("../images/Hero-bg.png");
+  max-width: 1260px;
+  height: 550px;
+}
+.banner-image-text-container {
+  max-width: 1260px;
+  height: 550px;
+  width: 70%;
+  margin: 0 auto;
+}
+.banner-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.banner-image img {
+  height: 25%;
+  width: 25%;
+}
+.banner-text {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+h1 {
+  /* font-size: bold; */
+  font-family: "Roboto", sans-serif;
+}
+.banner-text button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+/* Web Development style */
+
+.developement-container {
+  max-width: 1000px;
+  height: 1060px;
+  margin: 0 auto;
+  margin-top: 23px;
+  background-color: #fafafb;
+}
+.developement-text-container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.developement-image-container {
+  max-width: 1350px;
+  height: 900px;
+  width: 70%;
+  margin: 0 auto;
+}
+.developement-image1 {
+  display: flex;
+  max-width: 1350px;
+  height: 300px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+}
+.developement-image2 {
+  display: flex;
+  max-width: 1350px;
+  height: 300px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+}
+.development-image3 {
+  display: flex;
+  max-width: 1350px;
+  height: 300px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+}
+button {
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+}
+.h4p1,
+.h4p2,
+.h4p3 {
+  flex-direction: column;
+  margin-left: 70px;
+  margin-top: 32px;
+}
+.image1,
+.image2,
+.image3 {
+  margin-left: 100px;
+  margin-top: 23px;
+}
+/* My Inspiration style */
+
+.inspiration-container {
+  max-width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 23px;
+  border: 2px solid red;
+}
