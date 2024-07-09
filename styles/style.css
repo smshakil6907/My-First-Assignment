@@ -128,5 +128,46 @@ button {
 .inspiration-video-container iframe {
   height: 90%;
   width: 95%;
-  /* margin-bottom: 5px; */
+}
+/* My current turgate style */
+
+.current-target-container {
+  max-width: 1000px;
+  height: 420px;
+  margin: 0 auto;
+  margin-top: 23px;
+}
+.current-text-container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.current-image-container {
+  display: grid;
+  gap: 7px;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1000px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 23px;
+}
+.current-image1 {
+  background-color: #fff6f4;
+  max-width: 333px;
+  height: 300px;
+}
+.current-image2 {
+  background-color: #f2f6fe;
+  max-width: 333px;
+  height: 300px;
+}
+.current-image3 {
+  background-color: #fffdf2;
+  max-width: 333px;
+  height: 300px;
+}
+.html,
+.css,
+.js {
+  padding: 40px;
 }
