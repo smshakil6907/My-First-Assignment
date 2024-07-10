@@ -5,7 +5,7 @@ body {
 }
 /* navbar style */
 
-.navbar-container {
+/* .navbar-container {
   display: flex;
   justify-content: space-between;
   max-width: 950px;
@@ -16,7 +16,7 @@ body {
   margin-top: 5px;
   padding-bottom: 20px;
   border: 2px solid black;
-}
+} */
 /* banner style */
 
 .banner-container {
@@ -25,15 +25,18 @@ body {
   height: 550px;
 }
 .banner-image-text-container {
-  width: 70%;
+  max-width: 1260px;
+  height: 550px;
   margin: 0 auto;
-  text-align: center;
+
+  /* width: 70%;
+  margin: 0 auto;
+  text-align: center; */
 }
 .banner-image {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
 }
 .banner-image img {
   height: 25%;
