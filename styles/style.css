@@ -25,10 +25,9 @@ body {
   height: 550px;
 }
 .banner-image-text-container {
-  max-width: 1260px;
-  height: 550px;
   width: 70%;
   margin: 0 auto;
+  text-align: center;
 }
 .banner-image {
   display: flex;
