@@ -171,3 +171,55 @@ button {
 .js {
   padding: 40px;
 }
+
+/* I Need suport style */
+.support-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/handshake.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  max-width: 1000px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 23px;
+  border: 2px solid red;
+}
+.support-tex-container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+.support-tex-container input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 7px;
+  border: none;
+}
+.support-tex-container button {
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+}
+/* footer section style */
+
+.footer-container {
+  max-width: 1260px;
+  height: 80px;
+  margin-top: 50px;
+}
+.footer-tex-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  height: 50px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 14px;
+}
+.footer-image-container img {
+  padding: 8px;
+}
