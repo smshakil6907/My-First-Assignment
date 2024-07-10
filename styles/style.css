@@ -3,6 +3,8 @@
 body {
   font-family: "Azeret Mono", monospace;
 }
+/* navbar style */
+
 .navbar-container {
   display: flex;
   justify-content: space-between;
@@ -100,6 +102,7 @@ button {
   padding: 7px;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
 }
 .h4p1,
 .h4p2,
